@@ -1,10 +1,16 @@
 @font-face {
     font-family: "Zpix";
-    src: url("https://raw.githubusercontent.com/angelkawaiix/NSO-web-theme/main/resources/zpix.woff2");
+    src: url("https://github.com/angelkawaiix/WindoseOS/blob/main/resources/fonts/zpix.ttf");
+}
+
+@font-face {
+    font-family: "MPixelPlus";
+    src: url("https://github.com/angelkawaiix/WindoseOS/blob/main/resources/fonts/PixelMplus12-Regular.ttf");
 }
 
 *{
 	font-family: Zpix;
+	border-radius: 0px;
 }
 
 :root {
@@ -192,3 +198,103 @@ div.GlueDropTarget.personal-library > *.active {
 .main-buddyFeed-activityMetadata .main-buddyFeed-playbackContextLink {
 	color: var(--nso-purple);
 }
+
+body,dialog {
+    color: var(--nso-purple);
+}
+
+.ChipInnerComponent-sm {
+	border-radius: 0px;
+    color: var(--nso-purple);
+    background-color: var(--nso-white);
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--nso-purple);
+}
+
+.ChipInnerComponent-sm-selected {
+    border-radius: 0px;
+    color: var(--nso-purple);
+    background-color: var(--nso-pink);
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--nso-purple);
+}
+
+.main-home-content section {
+	background: var(--nso-white);
+	border-width: 5px;
+    border-style: solid;
+    border-color: var(--nso-purple);
+	padding: 0px;
+}
+
+.main-image-image{
+	box-shadow: none;
+}
+
+.e-91000-button-primary__inner {
+    background-color: none;
+    color: var(--nso-purple);
+    border-radius: 0px;
+}
+
+.e-91000-icon {
+    fill: var(--nso-purple, currentColor);
+}
+
+.e-91000-button-primary{
+	background-color:none;
+    color: var(--nso-purple);
+    border-radius: 0px;
+}
+
+a:not([data-encore-id]) {
+    color: var(--nso-purple);
+    text-decoration: none
+}
+
+.Root__main-view{
+	background-image: url(https://github.com/angelkawaiix/WindoseOS/blob/main/resources/images/FHDbg.png?raw=true);
+	background-position: center;
+}
+
+.view-homeShortcutsGrid-shortcut .view-homeShortcutsGrid-imageWrapper{
+	box-shadow: none;
+	border-radius: 0px;
+}
+
+.view-homeShortcutsGrid-shortcut .view-homeShortcutsGrid-PlayButtonContainer .view-homeShortcutsGrid-playButton {
+    box-shadow: none;
+}
+
+.ZC2VS0_OWUFpCb5ryKXQ {
+	background-color: var(--nso-pink);
+	width: var(--webkit-fill-avalible);
+	border-bottom-width:5px;
+	border-bottom-style: solid;
+	border-bottom-color: var(--nso-purple);
+	padding: 10px;
+}
+
+.K9MVLAI8oad6VYdMtUJD:before {
+    background: none;
+}
+
+.K9MVLAI8oad6VYdMtUJD:after {
+    background: none;
+}
+
+.FFkvaAsSr5hqsxAxvnKT {
+    --margin: none;
+    --margin-start: none;
+    --margin-end: none;
+    margin-inline: none;
+}
+
+.search-searchCategory-categoryGrid {
+    mask-image: none;
+}
+
+.e-91000-box {
+    color: var(--nso-purple);}
